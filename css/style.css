@@ -1,3 +1,10 @@
+/* Colors
+#131B23 = black
+#8D99AE = gray
+#E0E0E2 = silver
+#EDF2F4 = white
+#2274A5 = blue */
+
 /* GENERAL */
 * {
   outline: none;
@@ -17,7 +24,7 @@ img {
 }
 
 section {
-  padding: 45px 0 80px 0;
+  padding: 45px 0 0 0;
 }
 
 section .heading {
@@ -29,17 +36,38 @@ section .heading h2 {
   margin-bottom: 30px;
 }
 
-.red-divider {
+.black-divider {
   width: 100px;
   height: 2px;
-  background: #903749;
+  background: #131B23;
+  margin: 0 auto;
+}
+
+.gray-divider {
+  width: 100px;
+  height: 2px;
+  background: #8D99AE;
+  margin: 0 auto;
+}
+
+.silver-divider {
+  width: 100px;
+  height: 2px;
+  background: #E0E0E2;
   margin: 0 auto;
 }
 
 .white-divider {
   width: 100px;
   height: 2px;
-  background: #fff;
+  background: #EDF2F4;
+  margin: 0 auto;
+}
+
+.blue-divider {
+  width: 100px;
+  height: 2px;
+  background: #2274A5;
   margin: 0 auto;
 }
 
@@ -58,25 +86,25 @@ section .heading h2 {
 }
 
 .button1:hover {
-  background: white;
-  color: #2B2E4A;
+  background: #2274A5;
+  color: #EDF2F4;
   text-decoration: none;
 }
 
 .button1:visited {
-  color: #fff;
+  color: #EDF2F4;
   text-decoration: none;
 }
 
 .button1:visited:hover {
-  color: #2B2E4A;
+  color: #EDF2F4;
   text-decoration: none;
 }
 
 /* MENU */
 
 .navbar {
-  background: black;
+  background: #8D99AE;
   font-size: 12px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -90,7 +118,7 @@ section .heading h2 {
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+  text-align: right;
 }
 
 .navbar li a {
@@ -98,8 +126,8 @@ section .heading h2 {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #2B2E4A !important;
-  background-color: #fff !important;
+  color: #131B23 !important;
+  background-color: #E0E0E2 !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -110,9 +138,66 @@ section .heading h2 {
   background-color: #fff !important;
 }
 
-/* IMAGE - HEADER */
+/* Création site web */
 
-#image-header {
-
+#create-website {
+  background: #fff;
+  padding-bottom: 45px;
 }
+
+#create-website .heading h2 {
+  color: #131B23;
+}
+
+#create-website h3 {
+  color: #2274A5;
+}
+
+#create-website p {
+  color: #131B23;
+}
+
+#create-website .heading .button1 {
+  background-color: transparent;
+  border: 1px solid #2274A5;
+  color: #2274A5;
+  text-decoration: none;
+  margin-right: 15px;
+  width: 260px;
+}
+
+#create-website .button1:hover {
+  background: #2274A5;
+  color: #EDF2F4;
+  text-decoration: none;
+}
+
+#create-website .button1:visited {
+  color: #2274A5;
+  text-decoration: none;
+}
+
+#create-website .button1:visited:hover {
+  color: #EDF2F4;
+  text-decoration: none;
+}
+
+.savoir-plus {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.savoir-plus > .button1 {
+  width: 260px;
+}
+
+.cout {
+  display: inline-block;
+}
+
+.cout > .button1 {
+  width: 260px;
+}
+
+
 
