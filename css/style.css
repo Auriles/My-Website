@@ -309,3 +309,71 @@ section .heading h2 {
    font-size: 22px;
  }
 
+ /* FOOTER */
+
+ footer {
+   background: #131B23;
+   padding: 20px 0 40px;
+ }
+
+ footer .glyphicon {
+   font-size: 25px;
+   margin: 20px;
+   color: #2274A5;
+   height: 30px;
+ }
+
+ footer .glyphicon:hover {
+   font-size: 27px;
+ }
+
+ footer h5, footer h3, footer p {
+   color: #fff;
+   font-weight: normal;
+ }
+
+ .icons {
+   color: #fff;
+   font-size: 30px;
+   margin-top: 15px;
+   margin-right: 10px;
+   display: inline-block;
+ }
+
+ .icons a {
+   color: #fff;
+   font-size: 35px;
+   margin-top: 10px;
+   margin-right: 10px;
+ }
+
+ .icon-linkedin:hover {
+   color: #0077B5;
+   text-decoration: none;
+ }
+
+ .icon-github:hover {
+   color: #542C7A;
+   text-decoration: none;
+ }
+
+ .icon-mail:hover {
+   color: #DB4A38;
+   text-decoration: none;
+ }
+
+ .icon-phone:hover {
+   color: #41EC7A;
+   text-decoration: none;
+ }
+
+ .text-center {
+  text-align: center;
+ }
+
+
+
+
+
+
+
