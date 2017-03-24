@@ -104,7 +104,7 @@ section .heading h2 {
 /* MENU */
 
 .navbar {
-  background: #8D99AE;
+  background: #131B23;
   font-size: 12px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -163,7 +163,7 @@ section .heading h2 {
   color: #2274A5;
   text-decoration: none;
   margin-right: 15px;
-  width: 260px;
+  width: 265px;
 }
 
 #create-website .button1:hover {
@@ -182,21 +182,8 @@ section .heading h2 {
   text-decoration: none;
 }
 
-.savoir-plus {
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.savoir-plus > .button1 {
-  width: 260px;
-}
-
-.cout {
-  display: inline-block;
-}
-
-.cout > .button1 {
-  width: 260px;
+#create-website span.glyphicon {
+  margin-right: 5px;
 }
 
 /* PORTFOLIO */
@@ -249,5 +236,76 @@ section .heading h2 {
   text-decoration: none;
 }
 
+#portfolio span.glyphicon {
+  margin-right: 5px;
+}
 
+ /* CONTACT */
+
+ #contact {
+  background: #8D99AE;
+  padding-bottom: 45px;
+ }
+
+#contact .heading h2 {
+  color: #fff;
+}
+
+#contact .button1 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  width: 260px;
+}
+
+#contact .button1:hover {
+  background: #fff;
+  color: #8D99AE;
+  text-decoration: none;
+}
+
+#contact .button1:visited {
+  color: #8D99AE;
+  text-decoration: none;
+}
+
+#contact .button1:visited:hover {
+  color: #8D99AE;
+  text-decoration: none;
+}
+
+#contact-form input.button1 {
+  font-size: 15px;
+}
+
+ #contact-form {
+   font-size: 20px;
+   color: #fff;
+ }
+
+ .form-control {
+   height: 50px;
+   font-size: 18px;
+ }
+
+ .comments {
+   font-style: italic;
+   font-size: 18px;
+   color: #131B23;
+   height: 25px;
+ }
+
+ #contact-form input[type=submit] {
+   margin: 40px auto 0px;
+   display: block;
+ }
+
+ .thank-you {
+   text-align: center;
+   margin-top: 15px;
+   font-weight: bold;
+   font-size: 22px;
+ }
 
