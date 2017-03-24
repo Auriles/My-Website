@@ -2,7 +2,7 @@
 #131B23 = black
 #8D99AE = gray
 #E0E0E2 = silver
-#EDF2F4 = white
+#fff = white
 #2274A5 = blue */
 
 /* GENERAL */
@@ -60,7 +60,7 @@ section .heading h2 {
 .white-divider {
   width: 100px;
   height: 2px;
-  background: #EDF2F4;
+  background: #fff;
   margin: 0 auto;
 }
 
@@ -87,17 +87,17 @@ section .heading h2 {
 
 .button1:hover {
   background: #2274A5;
-  color: #EDF2F4;
+  color: #fff;
   text-decoration: none;
 }
 
 .button1:visited {
-  color: #EDF2F4;
+  color: #fff;
   text-decoration: none;
 }
 
 .button1:visited:hover {
-  color: #EDF2F4;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ section .heading h2 {
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #131B23 !important;
-  background-color: #E0E0E2 !important;
+  background-color: #fff !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -168,7 +168,7 @@ section .heading h2 {
 
 #create-website .button1:hover {
   background: #2274A5;
-  color: #EDF2F4;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ section .heading h2 {
 }
 
 #create-website .button1:visited:hover {
-  color: #EDF2F4;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -197,6 +197,56 @@ section .heading h2 {
 
 .cout > .button1 {
   width: 260px;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+  background: #2274A5;
+  padding-bottom: 45px;
+}
+
+#portfolio .heading h2 {
+  color: #fff;
+}
+
+#portfolio .thumbnail img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#portfolio .thumbnail img:hover {
+  width: 100%;
+  height: 100%;
+  filter: none;
+  -webkit-filter: none;
+}
+
+#portfolio .heading .button1 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  width: 260px;
+}
+
+#portfolio .button1:hover {
+  background: #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+#portfolio .button1:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+#portfolio .button1:visited:hover {
+  color: #2274A5;
+  text-decoration: none;
 }
 
 
