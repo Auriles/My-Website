@@ -71,6 +71,10 @@ section .heading h2 {
   margin: 0 auto;
 }
 
+.bold-blue {
+  color: #2274A5;
+}
+
 .button1 {
   font-weight: bold;
   text-transform: uppercase;
@@ -146,7 +150,7 @@ section .heading h2 {
 }
 
 #create-website .heading h2 {
-  color: #131B23;
+  color: #2274A5;
 }
 
 #create-website h3 {
@@ -183,6 +187,54 @@ section .heading h2 {
 }
 
 #create-website span.glyphicon {
+  margin-right: 5px;
+}
+
+/* Freelance */
+
+#freelance {
+  background: #fff;
+  padding-bottom: 45px;
+}
+
+#freelance .heading h2 {
+  color: #2274A5;
+}
+
+#freelance h3 {
+  color: #2274A5;
+}
+
+#freelance p {
+  color: #131B23;
+}
+
+#freelance .heading .button1 {
+  background-color: transparent;
+  border: 1px solid #2274A5;
+  color: #2274A5;
+  text-decoration: none;
+  margin-right: 15px;
+  width: 290px;
+}
+
+#freelance .button1:hover {
+  background: #2274A5;
+  color: #fff;
+  text-decoration: none;
+}
+
+#freelance .button1:visited {
+  color: #2274A5;
+  text-decoration: none;
+}
+
+#freelance .button1:visited:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#freelance span.glyphicon {
   margin-right: 5px;
 }
 
