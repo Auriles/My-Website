@@ -1,6 +1,6 @@
 $(function(){
 
-    $(".navbar a, footer a#aboutFooter").on("click", function(event){
+    $(".navbar a.scroll, footer a#aboutFooter").on("click", function(event){
         event.preventDefault();
         var hash = this.hash;
 

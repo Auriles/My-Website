@@ -295,7 +295,7 @@ section .heading h2 {
  /* CONTACT */
 
  #contact {
-  background: #8D99AE;
+  background: #274060;
   padding-bottom: 45px;
  }
 
@@ -314,17 +314,17 @@ section .heading h2 {
 
 #contact .button1:hover {
   background: #fff;
-  color: #8D99AE;
+  color: #274060;
   text-decoration: none;
 }
 
 #contact .button1:visited {
-  color: #8D99AE;
+  color: #274060;
   text-decoration: none;
 }
 
 #contact .button1:visited:hover {
-  color: #8D99AE;
+  color: #274060;
   text-decoration: none;
 }
 
@@ -345,7 +345,7 @@ section .heading h2 {
  .comments {
    font-style: italic;
    font-size: 18px;
-   color: #131B23;
+   color: #A6EBFB;
    height: 25px;
  }
 
