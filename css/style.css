@@ -1,11 +1,32 @@
+/* Copyright
+Created by Linseed Studio
+Created by AFY Studio
+Created by Luboš Volkov
+Created by Aybige
+Created by Linseed Studio
+Created by Creative Stall
+Created by Alex Marco
+Created by Ali Coşkun
+Created by Linseed Studio
+Created by Pedro Santos
+Created by Made by Made
+Created by Ana María Lora Macias
+Created by Tinashe Mugayi
+Created by buzzyrobot
+Created by Danil Polshin
+All From The Noun Project
+All Modified by Auriles El Haddad
+*/
+
 /* Colors
 #131B23 = black
-#8D99AE = gray
-#E0E0E2 = silver
 #fff = white
-#2274A5 = blue */
+#2274A5 = blue
+#274060 = blue marine
+*/
 
 /* GENERAL */
+
 * {
   outline: none;
 }
@@ -113,6 +134,7 @@ section .heading h2 {
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: bold;
+  box-shadow: 0px 0px 25px #131B23;
 }
 
 .navbar .navbar-nav {
