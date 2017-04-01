@@ -453,19 +453,21 @@ section .heading h2 {
   text-align: center;
  }
 
- /* Page more.html */
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Page more.html */
 
 /* more-banner */
 
 #more-banner{
   height: 200px;
-  background-color: #00CEB1;
+  background-color: #2AACF5;
 }
 
 #more-banner h1 {
-  margin-top: 65px;
   color: #fff;
-  text-align: center;
+  margin: 65px auto;
 }
 
 /* more-description */
@@ -490,6 +492,15 @@ section .heading h2 {
   font-weight: bold;
 }
 
+/* more-maquettes */
+
+.maquette {
+  padding-bottom: 70px;
+}
+
+.arrow {
+  margin-top: 90px;
+}
 
 
 
