@@ -14,6 +14,30 @@ Created by Ana María Lora Macias
 Created by Tinashe Mugayi
 Created by buzzyrobot
 Created by Danil Polshin
+Created by Kimmi Studio
+Created by bmijnlieff
+Created by shaheen
+Created by Iconic
+Created by Alena
+Created by Matthias Van Wambeke
+Created by Baboon designs
+Created by Icon Fair
+Created by Nicolas Vicent
+Created by romzicon
+Created by unlimicon
+Created by Lil Squid
+Created by Arthur Shlain
+Created by Silvia Herrera
+Created by Danil Polshin
+Created by Iconika
+Created by  Thays Malcher
+Created by OLIVIA HABERMEL
+Created by Royyan Wijaya
+Created by Chanut is Industries
+Created by Gregor Cresnar
+Created by DewDrops
+Created by H Alberto Gongora
+Created by Gautam Krishnan
 All From The Noun Project
 All Modified by Auriles El Haddad
 */
@@ -474,6 +498,7 @@ section .heading h2 {
 
 #more-description h3 {
   color: #2AACF5;
+  text-transform: uppercase;
 }
 
 #more-description p {
@@ -500,6 +525,54 @@ section .heading h2 {
 
 .arrow {
   margin-top: 90px;
+}
+
+/* Mediaqueries */
+
+@media screen and (max-width: 1024px) {
+
+  #more-description p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #more-description p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  #more-banner h1 {
+    margin: 40px auto;
+  }
+
+  .maquette {
+    padding-bottom: 50px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .align {
+    float: none;
+    width: 100%;
+  }
+
 }
 
 

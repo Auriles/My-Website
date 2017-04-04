@@ -1,5 +1,6 @@
 $(function(){
 
+    // Scroll
     $(".navbar a.scroll, #freelance a.scroll,footer a#aboutFooter").on("click", function(event){
         event.preventDefault();
         var hash = this.hash;
@@ -8,7 +9,8 @@ $(function(){
 
     });
 
-      $('#contact-form').submit(function(e) {
+    // Formulaire de contact
+    $('#contact-form').submit(function(e) {
         e.preventDefault();
         $('.comments').empty();
         var postdata = $('#contact-form').serialize();
