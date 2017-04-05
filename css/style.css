@@ -679,9 +679,31 @@ section .heading h2 {
   transition: all 0.3s ease-in 0s;
 }
 
-.price-block-blue ul li {
+.price-block-blue ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
   list-style-type: none;
+}
+
+.price-block-blue ul > li {
   text-align: left;
+  border: solid 1px rgba(42, 172, 245, 0.1);
+  height: 50px;
+  padding: .75em 1em;
+}
+
+.price-block-blue ul li:before {
+  content: "\00BB \0020";
+  font-weight: bold;
+  color: #2AACF5;
+  font-size: 15px;
+}
+
+.price-li-background-blue {
+  background-color: rgba(42, 172, 245, 0.1)
 }
 
 .price-box-blue {
