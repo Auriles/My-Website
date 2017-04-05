@@ -88,6 +88,13 @@ section .heading h2 {
   margin: 0 auto;
 }
 
+.black2-divider {
+  width: 900px;
+  height: 1px;
+  background: #8D99AE;
+  margin: 50px auto 0px auto;
+}
+
 .white-divider {
   width: 100px;
   height: 2px;
@@ -154,6 +161,36 @@ section .heading h2 {
 }
 
 .button1:visited:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in 0s;
+  background: transparent;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background: #2274A5;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button2:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button2:visited:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -236,6 +273,31 @@ section .heading h2 {
 }
 
 #create-website .button1:visited:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#create-website .heading .button2 {
+  background-color: transparent;
+  border: 1px solid #49E588;
+  color: #49E588;
+  text-decoration: none;
+  margin-right: 15px;
+  width: 265px;
+}
+
+#create-website .button2:hover {
+  background: #49E588;
+  color: #fff;
+  text-decoration: none;
+}
+
+#create-website .button2:visited {
+  color: #49E588;
+  text-decoration: none;
+}
+
+#create-website .button2:visited:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -526,6 +588,89 @@ section .heading h2 {
 .arrow {
   margin-top: 90px;
 }
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Page price.html */
+
+/* price-banner */
+
+#price-banner{
+  height: 200px;
+  background-color: #49E588;
+}
+
+#price-banner h1 {
+  color: #fff;
+  margin: 65px auto;
+}
+
+/* price-description */
+
+#price-description h3 {
+  color: #49E588;
+  text-transform: uppercase;
+}
+
+#price-description p {
+  text-align: justify;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#price-description p:nth-of-type(1) {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+#price-description a {
+  color:#49E588;
+}
+
+#price-description .button2 {
+  background-color: transparent;
+  border: 1px solid #49E588;
+  color: #49E588;
+  text-decoration: none;
+  margin-right: 15px;
+  width: 335px;
+}
+
+#price-description .button2:hover {
+  background: #49E588;
+  color: #fff;
+  text-decoration: none;
+}
+
+#price-description .button2:visited {
+  color: #49E588;
+  text-decoration: none;
+}
+
+#price-description .button2:visited:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#price-description span.glyphicon {
+  margin-right: 5px;
+}
+
+/* price-tarifs */
+
+#price-tarifs h3 {
+  color: #49E588;
+  text-transform: uppercase;
+}
+
+#price-tarifs p {
+  text-align: justify;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
 
 /* Mediaqueries */
 
