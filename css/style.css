@@ -91,7 +91,7 @@ section .heading h2 {
 .black2-divider {
   width: 900px;
   height: 1px;
-  background: #8D99AE;
+  background: rgba(19, 27, 35, 0.1);
   margin: 50px auto 0px auto;
 }
 
@@ -667,6 +667,35 @@ section .heading h2 {
   text-align: justify;
   margin-left: 250px;
   margin-right: 250px;
+}
+
+.price-block-blue {
+  border: 1px solid rgba(42, 172, 245, 0.2);
+  border-radius: 10px;
+}
+
+.price-block-blue:hover {
+  border: 1px solid #2AACF5;
+  transition: all 0.3s ease-in 0s;
+}
+
+.price-block-blue ul li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.price-box-blue {
+  border: 5px solid #2AACF5;
+  border-radius: 100px;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  background-color: #2AACF5;
+}
+
+.price-box-blue h4 {
+  color: white;
+  margin: 30px auto;
 }
 
 
