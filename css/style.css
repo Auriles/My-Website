@@ -130,6 +130,13 @@ section .heading h2 {
   margin: 0 auto;
 }
 
+.red-divider {
+  width: 100px;
+  height: 2px;
+  background: #DE2F29;
+  margin: 0 auto;
+}
+
 
 .bold-blue {
   color: #2274A5;
@@ -658,6 +665,10 @@ section .heading h2 {
 
 /* price-tarifs */
 
+#price-tarifs {
+  margin-bottom: 50px;
+}
+
 #price-tarifs h3 {
   color: #22CDB1;
   text-transform: uppercase;
@@ -668,6 +679,8 @@ section .heading h2 {
   margin-left: 250px;
   margin-right: 250px;
 }
+
+/* Price blue */
 
 .price-block-blue {
   border: 1px solid rgba(42, 172, 245, 0.2);
@@ -727,6 +740,125 @@ section .heading h2 {
   font-weight: bold;
 }
 
+/* Price green */
+
+.price-block-green {
+  border: 1px solid rgba(73, 229, 136, 0.2);
+  border-radius: 10px;
+}
+
+.price-block-green:hover {
+  border: 1px solid #49E588;
+  transition: all 0.3s ease-in 0s;
+}
+
+.price-block-green ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  list-style-type: none;
+}
+
+.price-block-green ul > li {
+  text-align: left;
+  border: solid 1px rgba(73, 229, 136, 0.1);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.price-block-green ul li:before {
+  content: "\00BB \0020";
+  font-weight: bold;
+  color: #49E588;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.price-li-background-green {
+  background-color: rgba(73, 229, 136, 0.1);
+}
+
+.price-box-green {
+  border: 5px solid #49E588;
+  border-radius: 100px;
+  margin: 20px auto;
+  width: 130px;
+  height: 130px;
+  background-color: #49E588;
+  display: flex;
+  align-items: center;
+}
+
+.price-box-green h4 {
+  color: white;
+  margin: 30px auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Price red */
+
+.price-block-red {
+  border: 1px solid rgba(222, 47, 41, 0.2);
+  border-radius: 10px;
+}
+
+.price-block-red:hover {
+  border: 1px solid #DE2F29;
+  transition: all 0.3s ease-in 0s;
+}
+
+.price-block-red ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  list-style-type: none;
+}
+
+.price-block-red ul > li {
+  text-align: left;
+  border: solid 1px rgba(222, 47, 41, 0.1);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.price-block-red ul li:before {
+  content: "\00BB \0020";
+  font-weight: bold;
+  color: #DE2F29;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.price-li-background-red {
+  background-color: rgba(222, 47, 41, 0.1);
+}
+
+.price-box-red {
+  border: 5px solid #DE2F29;
+  border-radius: 100px;
+  margin: 20px auto;
+  width: 130px;
+  height: 130px;
+  background-color: #DE2F29;
+  display: flex;
+  align-items: center;
+}
+
+.price-box-red h4 {
+  color: white;
+  margin: 30px auto;
+  font-size: 30px;
+  font-weight: bold;
+}
 
 /* ------------------------------------------------------------------------------------- */
 
