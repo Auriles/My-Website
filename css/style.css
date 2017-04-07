@@ -640,7 +640,7 @@ section .heading h2 {
   color: #22CDB1;
   text-decoration: none;
   margin-right: 15px;
-  width: 335px;
+  width: 335px auto;
 }
 
 #price-description .button2:hover {
@@ -942,13 +942,6 @@ section .heading h2 {
 }
 
 @media screen and (max-width: 768px) {
-  #more-description p {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .arrow {
     display: none;
   }
@@ -987,18 +980,6 @@ section .heading h2 {
   }
 }
 
-@media screen and (max-width: 768px) {
-  #price-description p {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  #price-tarifs .price-description p {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-
 @media screen and (max-width: 425px) {
   #price-banner h1 {
     margin: 40px auto;
@@ -1008,10 +989,12 @@ section .heading h2 {
 /* Mediaqueries page portfolio.html */
 
 @media screen and (max-width: 1024px) {
-  #portfolio-description .text-center h3 {
-    display: none;
+  #portfolio-description p {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
+
 
 
 
