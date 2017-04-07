@@ -870,6 +870,63 @@ section .heading h2 {
 
 /* Page portfolio.html */
 
+/* portfolio-banner */
+
+#portfolio-banner{
+  height: 200px;
+  background-color: #2274A5;
+}
+
+#portfolio-banner h1 {
+  color: #fff;
+  margin: 65px auto;
+}
+
+/* portfolio-description */
+
+#portfolio-description h3 {
+  color: #2274A5;
+  text-transform: uppercase;
+}
+
+#portfolio-description p {
+  text-align: justify;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#portfolio-description p:nth-of-type(1) {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+#portfolio-description a {
+  color: #2274A5;
+}
+
+/* portfolio-site */
+
+#portfolio-site h4 {
+  text-align: center;
+}
+
+#portfolio-site .blue-divider {
+  margin-bottom: 10px;
+}
+
+#portfolio-site ul {
+  list-style-type: none;
+}
+
+#portfolio-site ul li:before {
+  content: "\00BB \0020";
+  font-weight: bold;
+  color: #2274A5;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
 /* ------------------------------------------------------------------------------------- */
 
 /* Mediaqueries */
