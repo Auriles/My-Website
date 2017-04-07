@@ -89,10 +89,10 @@ section .heading h2 {
 }
 
 .black2-divider {
-  width: 900px;
+  width: 900px auto;
   height: 1px;
   background: rgba(19, 27, 35, 0.1);
-  margin: 50px auto 0px auto;
+  margin: 50px auto;
 }
 
 .white-divider {
@@ -893,6 +893,7 @@ section .heading h2 {
   text-align: justify;
   margin-left: 250px;
   margin-right: 250px;
+  width: auto;
 }
 
 #portfolio-description p:nth-of-type(1) {
@@ -1002,6 +1003,20 @@ section .heading h2 {
   #price-banner h1 {
     margin: 40px auto;
   }
+}
+
+/* Mediaqueries page portfolio.html */
+
+@media screen and (max-width: 1024px) {
+  #portfolio-description .text-center h3 {
+    display: none;
+  }
+}
+
+
+
+
+
 
 
 
