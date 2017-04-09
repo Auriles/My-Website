@@ -109,6 +109,13 @@ section .heading h2 {
   margin: 0 auto;
 }
 
+.red-divider {
+  width: 100px;
+  height: 2px;
+  background: #DE2F29;
+  margin: 0 auto;
+}
+
 .green-divider {
   width: 100px;
   height: 2px;
@@ -927,6 +934,21 @@ section .heading h2 {
   margin-left: 5px;
   margin-right: 10px;
 }
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Page about.html*/
+
+/* */
+
+.about-boulot {
+  text-align: left;
+}
+
+
+
+
+
 
 /* ------------------------------------------------------------------------------------- */
 
