@@ -209,6 +209,26 @@ section .heading h2 {
   text-decoration: none;
 }
 
+.mentions-legales {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mentions-legales:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mentions-legales:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mentions-legales:visited:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* MENU */
 
 .navbar {
@@ -990,9 +1010,25 @@ section .heading h2 {
   font-size: 15px;
 }
 
+/* ------------------------------------------------------------------------------------- */
 
+/* mentions-banner */
 
+#mentions-banner{
+  height: 200px;
+  background-color: #F9D703;
+}
 
+#mentions-banner h1 {
+  color: #fff;
+  margin: 65px auto;
+}
+
+/* mentions-description */
+
+#mentions-description {
+  margin-bottom: 50px;
+}
 
 
 /* ------------------------------------------------------------------------------------- */
