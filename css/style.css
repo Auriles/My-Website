@@ -641,6 +641,10 @@ section .heading h2 {
 
 /* price-description */
 
+#price-description {
+  margin-bottom: 0px;
+}
+
 #price-description h3 {
   color: #22CDB1;
   text-transform: uppercase;
